@@ -1,5 +1,5 @@
 export const SITE = {
-	title: 'Documentation',
+	title: 'ImageX训练平台',
 	description: 'Your website description.',
 //	defaultLanguage: 'en_US',
     defaultLanguage: 'zh_CN',
@@ -49,20 +49,26 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'参考文档': [
-			{ text: 'Introduction', link: 'en/introduction' },
+		'Introduction': [
+			{ text: '功能简介', link: 'en/1-功能简介' },
+			{ text: '图像分类使用说明', link: 'en/2-图像分类使用说明' },
+			{ text: '目标检测使用说明', link: 'en/3-目标检测使用说明' },
+			{ text: '语义分割使用说明', link: 'en/4-语义分割使用说明' },
 			// { text: 'Page 2', link: 'en/page-2' },
 			// { text: 'Page 3', link: 'en/page-3' },
-			{ text: 'Unit使用方式', link: 'zh/page-1' },
+			// { text: 'Unit使用方式', link: 'en/page-1' },
 		],
 		// 'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
 	},
     zh: {
         '参考文档': [
-            { text: 'Introduction', link: 'zh/introduction' },
+            { text: '功能简介', link: 'zh/1-功能简介' },
+			{ text: '图像分类使用说明', link: 'zh/2-图像分类使用说明' },
+			{ text: '目标检测使用说明', link: 'zh/3-目标检测使用说明' },
+			{ text: '语义分割使用说明', link: 'zh/4-语义分割使用说明' },
             // { text: 'Page 2', link: 'zh/page-2' },
             // { text: 'Page 3', link: 'zh/page-3' },
-			{ text: 'Unit使用方式', link: 'zh/page-1' },
+			// { text: 'Unit使用方式', link: 'zh/page-1' },
             ],
         // 'Another Section': [{ text: 'Page 4', link: 'zh/page-4' }],
     },
